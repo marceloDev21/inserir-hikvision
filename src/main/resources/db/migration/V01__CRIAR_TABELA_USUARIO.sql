@@ -1,0 +1,26 @@
+CREATE TABLE opendoor.usuario (
+	id BIGINT NOT NULL auto_increment,
+	categoria_habilitacao VARCHAR(255) NULL,
+	celular VARCHAR(255) NULL,
+	celular_esposa VARCHAR(255) NULL,
+	cpf VARCHAR(255) NULL,
+	cpf_esposa VARCHAR(255) NULL,
+	data_emissao VARCHAR(255) NULL,
+	data_expedicao VARCHAR(255) NULL,
+	data_nascimento VARCHAR(255) NULL,
+	data_validade VARCHAR(255) NULL,
+	documento_identidade VARCHAR(255) NULL,
+	email VARCHAR(255) NULL,
+	email_esposa VARCHAR(255) NULL,
+	estado_emissor VARCHAR(255) NULL,
+	naturalidade VARCHAR(255) NULL,
+	nome VARCHAR(255) NULL,
+	nome_esposa VARCHAR(255) NULL,
+	nome_mae VARCHAR(255) NULL,
+	nome_pai VARCHAR(255) NULL,
+	orgao_emissor VARCHAR(255) NULL,
+	registro VARCHAR(255) NULL,
+	result_image LONGBLOB NULL,
+	  PRIMARY KEY (`id`)
+)
+ENGINE=InnoDB DEFAULT CHARSET=utf8;
