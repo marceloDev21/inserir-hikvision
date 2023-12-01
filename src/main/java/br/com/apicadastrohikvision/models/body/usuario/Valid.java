@@ -13,6 +13,16 @@ public class Valid {
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss")
 	private Date endTime; // "2030-08-01T17:30:08"
 
+	private String timeType;
+
+	public String getTimeType() {
+		return timeType;
+	}
+
+	public void setTimeType(String timeType) {
+		this.timeType = timeType;
+	}
+
 	public Boolean getEnable() {
 		return enable;
 	}

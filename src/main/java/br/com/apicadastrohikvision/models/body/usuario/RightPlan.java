@@ -2,8 +2,8 @@ package br.com.apicadastrohikvision.models.body.usuario;
 
 public class RightPlan {
 
-	private Integer doorNo = 1;
-	private String planTemplateNo = "1";
+	private Integer doorNo;
+	private String planTemplateNo;
 
 	public Integer getDoorNo() {
 		return doorNo;
